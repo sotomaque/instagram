@@ -19,6 +19,7 @@
 		340E684326FC16B100AB2F2B /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340E684226FC16B100AB2F2B /* UploadView.swift */; };
 		340E684526FC1D7C00AB2F2B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340E684426FC1D7C00AB2F2B /* FeedCell.swift */; };
 		340E684726FC23FF00AB2F2B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340E684626FC23FF00AB2F2B /* SearchBar.swift */; };
+		340E684926FC25AE00AB2F2B /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340E684826FC25AE00AB2F2B /* PostGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		340E684226FC16B100AB2F2B /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		340E684426FC1D7C00AB2F2B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		340E684626FC23FF00AB2F2B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		340E684826FC25AE00AB2F2B /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 		340E683226FC15C200AB2F2B /* items */ = {
 			isa = PBXGroup;
 			children = (
+				340E684826FC25AE00AB2F2B /* PostGridView.swift */,
 			);
 			path = items;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			files = (
 				340E683A26FC165700AB2F2B /* FeedView.swift in Sources */,
 				340E683C26FC167000AB2F2B /* NotificationsView.swift in Sources */,
+				340E684926FC25AE00AB2F2B /* PostGridView.swift in Sources */,
 				340E682B26FC159600AB2F2B /* ContentView.swift in Sources */,
 				340E684326FC16B100AB2F2B /* UploadView.swift in Sources */,
 				340E681526FC14B700AB2F2B /* instagramApp.swift in Sources */,
