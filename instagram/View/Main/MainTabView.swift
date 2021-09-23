@@ -22,7 +22,7 @@ struct MainTabView: View {
             
             UploadView()
                 .tabItem {
-                    Image(systemName: "plus.squre")
+                    Image(systemName: "plus.square")
                 }
             
             NotificationsView()
@@ -35,6 +35,7 @@ struct MainTabView: View {
                     Image(systemName: "person")
                 }
         }
+        .accentColor(.black)
     }
 }
 
