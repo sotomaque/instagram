@@ -18,6 +18,7 @@
 		340E684126FC169F00AB2F2B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340E684026FC169F00AB2F2B /* ProfileView.swift */; };
 		340E684326FC16B100AB2F2B /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340E684226FC16B100AB2F2B /* UploadView.swift */; };
 		340E684526FC1D7C00AB2F2B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340E684426FC1D7C00AB2F2B /* FeedCell.swift */; };
+		340E684726FC23FF00AB2F2B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340E684626FC23FF00AB2F2B /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		340E684026FC169F00AB2F2B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		340E684226FC16B100AB2F2B /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		340E684426FC1D7C00AB2F2B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		340E684626FC23FF00AB2F2B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				340E683E26FC168900AB2F2B /* SearchView.swift */,
+				340E684626FC23FF00AB2F2B /* SearchBar.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				340E681526FC14B700AB2F2B /* instagramApp.swift in Sources */,
 				340E683F26FC168900AB2F2B /* SearchView.swift in Sources */,
 				340E684126FC169F00AB2F2B /* ProfileView.swift in Sources */,
+				340E684726FC23FF00AB2F2B /* SearchBar.swift in Sources */,
 				340E683826FC162B00AB2F2B /* MainTabView.swift in Sources */,
 				340E684526FC1D7C00AB2F2B /* FeedCell.swift in Sources */,
 			);
