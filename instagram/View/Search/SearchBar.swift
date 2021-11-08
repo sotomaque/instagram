@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SearchBar: View {
+    
     @Binding var text: String
     @Binding var isEditing: Bool
     
@@ -38,14 +39,15 @@ struct SearchBar: View {
                 }
             )
             .onTapGesture {
-                isEditing = true
+                isEditing.toggle()
             }
     }
     
     func cancelButton() -> some View {
         Button {
-            isEditing = false
+            isEditing.toggle()
             text = ""
+            // extension to hide keyboard when editing is ended
             UIApplication.shared.endEditing()
         } label: {
             Text("Cancel")
@@ -53,7 +55,7 @@ struct SearchBar: View {
         }
         .padding(.trailing, 8)
         .transition(.move(edge: .trailing))
-        .animation(.default)
+        .animation(.easeIn)
     }
 }
 

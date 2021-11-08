@@ -23,6 +23,8 @@
 		3412087D26FED25900EE931D /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412087C26FED25900EE931D /* UserCell.swift */; };
 		3412087F26FED26200EE931D /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412087E26FED26200EE931D /* UserListView.swift */; };
 		3412088126FED61100EE931D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412088026FED61100EE931D /* Extensions.swift */; };
+		34A185CE2739DA5100F58AF0 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A185CD2739DA5100F58AF0 /* NotificationCell.swift */; };
+		34A185D02739E1E500F58AF0 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A185CF2739E1E500F58AF0 /* ProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		3412087C26FED25900EE931D /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		3412087E26FED26200EE931D /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		3412088026FED61100EE931D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		34A185CD2739DA5100F58AF0 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		34A185CF2739E1E500F58AF0 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				340E684026FC169F00AB2F2B /* ProfileView.swift */,
+				34A185CF2739E1E500F58AF0 /* ProfileHeaderView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				340E683B26FC167000AB2F2B /* NotificationsView.swift */,
+				34A185CD2739DA5100F58AF0 /* NotificationCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -324,12 +330,14 @@
 				340E684326FC16B100AB2F2B /* UploadView.swift in Sources */,
 				340E681526FC14B700AB2F2B /* instagramApp.swift in Sources */,
 				340E683F26FC168900AB2F2B /* SearchView.swift in Sources */,
+				34A185D02739E1E500F58AF0 /* ProfileHeaderView.swift in Sources */,
 				340E684126FC169F00AB2F2B /* ProfileView.swift in Sources */,
 				3412087D26FED25900EE931D /* UserCell.swift in Sources */,
 				340E684726FC23FF00AB2F2B /* SearchBar.swift in Sources */,
 				340E683826FC162B00AB2F2B /* MainTabView.swift in Sources */,
 				340E684526FC1D7C00AB2F2B /* FeedCell.swift in Sources */,
 				3412087F26FED26200EE931D /* UserListView.swift in Sources */,
+				34A185CE2739DA5100F58AF0 /* NotificationCell.swift in Sources */,
 				3412088126FED61100EE931D /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
